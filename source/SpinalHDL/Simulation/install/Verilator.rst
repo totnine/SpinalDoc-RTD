@@ -80,7 +80,7 @@ From source
    # Close the MSYS2 shell once you're asked to
    pacman -Syuu
    pacman -S --needed base-devel mingw-w64-x86_64-toolchain \
-                      git flex\
+                      git flex autoconf \
                       mingw-w64-x86_64-cmake
 
    git clone http://git.veripool.org/git/verilator  
